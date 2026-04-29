@@ -32,3 +32,7 @@ local HttpService = game:GetService("HttpService")
 local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
 
+Tabs.Reroll:AddParagraph({
+  Title = "Paragraph",
+  Content = ""
+}) 

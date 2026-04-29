@@ -1,7 +1,6 @@
 
 _G.Settings = {
 }
-
 local SkibidiToilet = {
     Version = "v0.0.1",
 }
@@ -24,6 +23,12 @@ local Window = Fluent:CreateWindow({
 local Tabs = {
     Debug = Window:AddTab({ Title = "Debug", icon = "" }),
     Farm = Window:AddTab({ Title = "Farm", icon = "" }),
+    Reroll = Window:AddTab({ Title = "Auto Reroll", icon = "" }),
 }
 
 local Options = Fluent.Options
+
+local HttpService = game:GetService("HttpService")
+local RunService = game:GetService("RunService")
+local TweenService = game:GetService("TweenService")
+

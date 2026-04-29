@@ -4,8 +4,6 @@ _G.Settings = {
 
 local SkibidiToilet = {
     Version = "v0.0.1",
-    ClientStartTime = os.time(),
-    DiscordLink = "https://discord.gg/jnHfKn"
 }
 
 -- GUI

@@ -33,5 +33,6 @@ local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
 
 local a = Tabs.Debug:AddButton({
-  Title = "Refresh Data"
+  Title = "Refresh Data",
+  Description = "",
 })

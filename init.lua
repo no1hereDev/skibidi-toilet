@@ -33,7 +33,7 @@ local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
 spawn(function()
   Tabs.Debug:AddButton({
-    Title = "Refresh Datjansa",
+    Title = "Refresh Data",
     Description = "",
     Callback = function()
       game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("TraitReroll"):FireServer()

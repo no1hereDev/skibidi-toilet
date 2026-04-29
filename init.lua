@@ -31,8 +31,3 @@ local Options = Fluent.Options
 local HttpService = game:GetService("HttpService")
 local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
-
-local buton = Tabs.Debug:AddButton({
-  Title = "Refresh Val",
-  Description = "",
-})

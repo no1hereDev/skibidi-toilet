@@ -33,7 +33,10 @@ local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
 
 local buton = nil
-buton = Debug:AddButton({
+buton = Tabs.Debug:AddButton({
   Title = "Refresh Val",
-  Description = ""
+  Description = "", 
+  Callback = function()
+    buton:SetDescription("Gay Sex 69")
+  end)
 })

@@ -32,8 +32,11 @@ local HttpService = game:GetService("HttpService")
 local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
 spawn(function()
-  Tabs.Debug:AddParagraph({
+  Tabs.Debug:AddButton({
     Title = "Refresh Data",
-    Content = "",
+    Description = "",
+    Callback = function()
+      
+    end
   })
 end)

@@ -32,11 +32,15 @@ local HttpService = game:GetService("HttpService")
 local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
 spawn(function()
+  local Paragraph = nil
   Tabs.Debug:AddButton({
     Title = "Refresh Data",
     Description = "",
     Callback = function()
       game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("TraitReroll"):FireServer()
     end
+  })
+  Tabs.Debug:AddParagraph({
+    Title = "None",
   })
 end)

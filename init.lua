@@ -36,7 +36,7 @@ spawn(function()
     Title = "Refresh Data",
     Description = "",
     Callback = function()
-      
+      game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("TraitReroll"):FireServer()
     end
   })
 end)

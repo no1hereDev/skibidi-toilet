@@ -38,5 +38,5 @@ buton = Tabs.Debug:AddButton({
   Description = "", 
   Callback = function()
     buton:SetDescription("Gay Sex 69")
-  end)
+  end
 })

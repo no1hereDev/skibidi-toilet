@@ -32,7 +32,7 @@ local HttpService = game:GetService("HttpService")
 local RunService = game:GetService("RunService")
 local TweenService = game:GetService("TweenService")
 
-local a = Tabs.Debug:AddButton({
+Tabs.Debug:AddButton({
   Title = "Refresh Data",
   Description = "",
 })

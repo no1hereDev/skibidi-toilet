@@ -38,10 +38,10 @@ spawn(function()
     Description = "",
     Callback = function()
       -- game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("TraitReroll"):FireServer()
-      Paragraph:SetTitle("Worked")
+      Paragraph:SetTitle(game:GetService("HttpService"):JSONEncode(game.Players.LocalPlayer))
     end
   })
   Paragraph = Tabs.Debug:AddParagraph({
-    Title = game:GetService("HttpService"):JSONEncode(game.Players.LocalPlayer),
+    Title = "None",
   })
 end)

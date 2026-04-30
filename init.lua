@@ -41,7 +41,7 @@ spawn(function()
       Paragraph:SetTitle("Worked")
     end
   })
-  Tabs.Debug:AddParagraph({
+  Paragraph = Tabs.Debug:AddParagraph({
     Title = "None",
   })
 end)

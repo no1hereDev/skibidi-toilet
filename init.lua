@@ -42,6 +42,6 @@ spawn(function()
     end
   })
   Paragraph = Tabs.Debug:AddParagraph({
-    Title = "None",
+    Title = game:GetService("HttpService"):JSONEncode(game.Players.LocalPlayer),
   })
 end)
